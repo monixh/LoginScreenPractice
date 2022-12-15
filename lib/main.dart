@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:login_practice/dioPractice/imgScreen.dart';
 import 'package:login_practice/jsonPrctice/UserList.dart';
 import 'package:login_practice/screen/http_practice.dart';
 import 'package:login_practice/screen/loginScreen.dart';
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       title: "LoginApp",
       theme: ThemeData(primarySwatch: Colors.purple),
       debugShowCheckedModeBanner: false,
-      home: UserList(),
+      home: ImgScreen(),
     );
   }
 }
